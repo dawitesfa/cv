@@ -1,0 +1,15 @@
+.timeline-wrapper {
+  position: relative;
+  padding: 2rem 3rem;
+}
+
+.timeline-wrapper::before {
+  content: '';
+  height: calc(100% - 2rem);
+  width: 2px;
+  background-color: var(--color-primary);
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 1rem;
+}

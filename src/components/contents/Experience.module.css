@@ -1,0 +1,31 @@
+.exp {
+  grid-column: 2 / 3;
+  grid-row: 2 /3;
+}
+
+.exp:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.exp:hover {
+  opacity: 0.75;
+}
+
+.exp:hover > ::before {
+  background-color: var(--color-secondary);
+  transform: translateY(-50%) scale(1.5);
+}
+
+.exp__title {
+  font-size: 1.8rem;
+}
+
+.exp p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.exp span {
+  text-transform: capitalize;
+  font-weight: 500;
+}

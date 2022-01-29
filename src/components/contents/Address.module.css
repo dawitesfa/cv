@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header__person-detail {
+  flex: 1;
+}
+
+.header__name {
+  font-size: 3rem;
+}
+
+.header__job-title {
+  font-style: italic;
+}
+
+.header__pic-box {
+  position: relative;
+  transform: translateY(4rem);
+  margin-top: -4rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 99;
+  outline: 0.5rem solid var(--color-secondary-light);
+  cursor: pointer;
+}
+
+.header__pic-box:hover {
+  outline-color: var(--color-primary);
+}
+
+.header__pic-box:hover ~ .hr {
+  width: 25%;
+}
+
+.header__pic-box:hover .header__pic {
+  transform: scale(1.05);
+}
+
+.header__pic {
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.header__address {
+  flex: 1;
+  text-align: right;
+}
+
+.header__address span,
+.header__address i {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.hr {
+  border: none;
+  border-bottom: 0.5rem solid var(--color-primary);
+  margin: 0 auto;
+  transition: all 0.5s;
+}
+
+@media (max-width: 900px) {
+  .header__pic-box {
+    display: none;
+  }
+  .header__name {
+    font-size: 2rem;
+  }
+  .header__address {
+    font-size: 1.4rem;
+  }
+}
