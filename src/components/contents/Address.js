@@ -35,7 +35,7 @@ const Address = (props) => {
             <span>Address :</span> Addis Ababa, Ethiopia
           </p>
           <p>
-            <i class="bi bi-telephone"></i>
+            <i className="bi bi-telephone"></i>
             +251911300712
           </p>
         </div>

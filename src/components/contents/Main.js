@@ -34,13 +34,13 @@ const Main = (props) => {
         <h2>Contact Me</h2>
         <a href="https://github.com/dawitesfa" target="_blank" rel="noreferrer">
           <span>
-            <i class="bi bi-github"></i>
+            <i className="bi bi-github"></i>
           </span>
           Github
         </a>
         <a href="https://twitter.com/davortes" target="_blank" rel="noreferrer">
           <span>
-            <i class="bi bi-twitter"></i>
+            <i className="bi bi-twitter"></i>
           </span>
           Tweeter
         </a>
@@ -50,7 +50,7 @@ const Main = (props) => {
           rel="noreferrer"
         >
           <span>
-            <i class="bi bi-linkedin"></i>
+            <i className="bi bi-linkedin"></i>
           </span>
           LinkdIn
         </a>
